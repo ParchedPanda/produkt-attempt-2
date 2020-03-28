@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(255, 225, 165);
+}
+header {
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center
+    
+    ;
+    background-color: rgb(104, 183, 62);
+}
