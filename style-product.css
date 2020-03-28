@@ -21,6 +21,7 @@ header {
     box-shadow: 2px 3px 10px #88ec7e;
 }
 .title {
+    margin-top:60px;
     margin-left: 25%;
     position: fixed;
     font-size: 2em;
@@ -38,8 +39,7 @@ header {
 
 }
 .nav-bar li {
-    
-    margin-top: 73px;
+    margin-top: 90px;
     flex-direction: row;
     justify-content: space-evenly;
 	float: left;
@@ -52,14 +52,16 @@ header {
     box-shadow: 2px -3px 3px #60d856;
     list-style: none;
     background-color:rgb(29, 102, 41);
-   height: auto;
+   height: 1.5em;
 }
 
 
 .nav-bar a {
+    
     display: flex;
     justify-content: space-evenly;
     padding: 7px;
+
 	text-decoration: none;
 	background-color:rgb(29, 102, 41);
     color:rgb(255, 247, 203);
