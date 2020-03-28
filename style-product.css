@@ -1,11 +1,14 @@
+
 body {
     background-color: rgb(255, 225, 165);
 }
 header {
     display:flex;
     justify-content: space-evenly;
-    text-align: center
+    text-align: center;
+    font-family: "Caveat", Arial, Helvetica, sans-serif;
+    font-size: 2.2vw;
     
-    ;
+    
     background-color: rgb(104, 183, 62);
 }
