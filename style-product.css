@@ -16,10 +16,12 @@
     position: fixed;
     top: 0;
     width: 100%;
-    font-family: 'Annie Use Your Telescope', Arial, Helvetica, sans-serif;
+    font-family: 'Caveat', Arial, Helvetica, sans-serif;
     font-size: 2.2vw;
     height: auto;
-    background-color: rgb(104, 183, 62);
+    
+background: rgb(104,183,62);
+background: linear-gradient(90deg, rgba(104,183,62,1) 20%, rgba(89,189,63,1) 37%, rgba(86,171,70,1) 67%); 
     border-bottom: 3px solid #215e15;
     border-radius: 4px;
     box-shadow: 2px 3px 10px #88ec7e;
@@ -36,7 +38,7 @@
 }
 .nav-bar {
  font-size: 0.8em;
- font-family: 'Annie Use Your Telescope', Times New Roman;
+ font-family: "Patrick Hand", Times New Roman;
  align-self: flex-end;
  padding-right: 0.3em;
  flex-shrink: 0;
@@ -66,23 +68,94 @@
 
 .nav-bar a:hover {
     
-    font-size: 1.1em;
+ 
 	color:#fff;
 }
 .nav-bar li:hover {
-    box-shadow: 2px -3px 2px #a4dd9f;
+     box-shadow: 0 0 7px 7px #ffe8b9;
+     
 }
 
 body {
     
     background-color: #ffe8b9;
-    padding-top: 170px;
+    padding-top: 120px;
+    width: 100%;
     
 }
 article {
-    font-size: 1.2em;
+    font-size: 1em;
+    font-family: "Kalam", Helvetica, Arial;
+    width: 70%;
+    margin: 0 auto;
 }
 .subheading {
-font-family: 'Indie Flower', Arial;
-font-weight: 600;
+font-family: 'Amatic SC', Arial;
+font-weight: 700;
+font-size: 1.8em;
+padding-top: 2.3em;
+
+}
+.input-div {
+  
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 2.6em;
+  text-align: center;
+
+  
+}
+#email {
+  border: 2px solid rgb(11, 46, 17);
+    border-radius: 8px;
+    text-shadow: 1px 1px 1px rgb(17, 59, 17);
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 7px;
+    margin-bottom: 1.4em;
+    width: 100%;
+    font-size: 0.8em;
+    font-family: "Roboto", Arial;
+}
+
+#email:hover {
+  box-shadow: 0 0 5px 2px rgba(63,173,48,1);
+}
+
+ #submit {
+	box-shadow: -1px 1px 4px -50px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display: inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size: 0.8em;
+	font-weight:bold;
+	padding: 1.1em;
+	text-decoration:none;
+	text-shadow:0px -2px 0px #ffee66;
+  width: 70%;
+  margin-left: 19%;
+
+
+}
+#submit:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+#submit:active {
+	position:relative;
+	top:1px;
+}
+#content {
+  font-size: 1em;
+    font-family: "Kalam", Helvetica, Arial;
+    width: 70%;
+    margin: 0 auto;
+}
+#video {
+  margin: auto;
 }
