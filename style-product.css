@@ -78,7 +78,7 @@ color:#fff;
 
 body {
   
-  background-color: #ffe8b9;
+  background-color: rgb(255, 213, 93);
   padding-top: 120px;
   width: 100%;
   
@@ -159,15 +159,17 @@ font-size: 1em;
 #video {
 display: block;
 margin:0 auto;
-width: 50%;
+width: 56%;
+height: 38%;
 
 }
-#pricelist{
-font-family: "Amatic SC", Helvetica;
+#pricelist {
+font-family: "Amatic SC", Arial;
 margin-top: 60px;
 display: flex;
 flex-direction: column;
 align-items: center;
+
 
 }
 .prices {
@@ -177,13 +179,14 @@ align-items: center;
 text-align: center;
 
 margin: 10px;
-width: 40%;
+width: 30%;
 margin: 20px;
-border: 3px solid #000;
+border: 2px solid #000;
 border-radius: 3px;
 font-size: 1.5em;
 font-weight: 900;
 
+background-color: #FFEAAF;
 
 }
 .price {
@@ -237,7 +240,7 @@ font-weight:bold;
 padding:6px 12px;
 text-decoration:none;
 text-shadow:0px 1px 0px #ded17c;
-margin-bottom: 2px;
+margin-bottom: 5px;
 margin-top: 1.5em;
 }
 .button:hover {
