@@ -37,7 +37,7 @@ background: linear-gradient(90deg, rgba(104,183,62,1) 20%, rgba(89,189,63,1) 37%
     text-shadow: 3px 2px 3px rgb(17, 59, 17);
 }
 .nav-bar {
- font-size: 0.8em;
+ font-size: 0.6em;
  font-family: "Patrick Hand", Times New Roman;
  align-self: flex-end;
  padding-right: 0.3em;
@@ -91,9 +91,9 @@ article {
 }
 .subheading {
 font-family: 'Amatic SC', Arial;
-font-weight: 700;
-font-size: 1.8em;
-padding-top: 2.3em;
+font-weight: 800;
+font-size: 1.9em;
+padding-top: 2em;
 
 }
 .input-div {
@@ -101,7 +101,7 @@ padding-top: 2.3em;
   width: 50%;
   margin: 0 auto;
   padding-top: 2.6em;
-  text-align: center;
+  display:block;
 
   
 }
@@ -128,7 +128,7 @@ padding-top: 2.3em;
 	background-color:#ffec64;
 	border-radius:6px;
 	border:1px solid #ffaa22;
-	display: inline-block;
+	display: block;
 	cursor:pointer;
 	color:#333333;
 	font-family:Arial;
@@ -138,7 +138,7 @@ padding-top: 2.3em;
 	text-decoration:none;
 	text-shadow:0px -2px 0px #ffee66;
   width: 70%;
-  margin-left: 19%;
+  margin: 0 auto;
 
 
 }
@@ -157,5 +157,37 @@ padding-top: 2.3em;
     margin: 0 auto;
 }
 #video {
-  margin: auto;
+  display: block;
+  margin:0 auto;
+  width: 50%;
+  
+}
+#pricelist{
+  font-family: "Amatic SC", Helvetica;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.prices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100%  / 3);
+  margin: 10px;
+  border: 3px solid #000;
+  border-radius: 3px;
+  font-size: 1.3em;
+  font-weight: 900;
+  
+}
+.prices > .price-title {
+  background-color:rgb(107, 225, 63);
+  color: black;
+  padding: 15px 0;
+  width: 100%; 
+  font-size: 1.5em;
+  font-weight: 900;
 }
