@@ -159,8 +159,9 @@ font-size: 1em;
 #video {
 display: block;
 margin:0 auto;
-width: 56%;
-height: 38%;
+width: 32em;
+height: 18em;
+
 
 }
 #pricelist {
@@ -251,5 +252,54 @@ background-color:#f2ab1e;
 position:relative;
 top:1px;
 }
+footer {
+  border-top: 1px solid green;
+  background: rgb(104,183,62);
+background: linear-gradient(90deg, rgba(104,183,62,1) 20%, rgba(89,189,63,1) 37%, rgba(86,171,70,1) 67%);
+  width: 100%;
+  bottom: 0;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
 
-    
+ 
+}
+.contact {
+  font-family: "Amatic SC", Arial;
+  font-size: 1.3em;
+}
+#nav-footer {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.nav-footer a {
+ background: trasnparent;
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 8px; /* Add some padding */
+  text-decoration:none; /* Remove underline from links */
+  font-family: "Roboto COndensed", Arial;
+  margin-right: 10px;
+  
+}
+
+.nav-footer a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+  border-radius: 2px;
+}
+.nav-footer li {
+
+  list-style-type: none;
+  padding-left:10px;
+}
+.footers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
