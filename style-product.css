@@ -345,10 +345,10 @@ background: linear-gradient(90deg, rgba(104,183,62,1) 20%, rgba(89,189,63,1) 37%
   margin-bottom: 1px ;
 }
 .nav-bar li:hover {
-   box-shadow: 0 0 3px 3px #ffe8b9;
+   box-shadow: 0 0 3px 3px #ffe8b9;}
 body{
   font-size: 0.9em;
 padding-top:80px;
  }
  }
-}
+
